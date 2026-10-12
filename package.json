@@ -1,0 +1,25 @@
+{
+  "name": "web-to-mobile-demo",
+  "version": "1.0.0",
+  "description": "Packaging a responsive website as a native iOS & Android mobile app using Capacitor",
+  "scripts": {
+    "dev": "npx serve www -p 3000",
+    "sync": "npx cap sync",
+    "copy": "npx cap copy",
+    "open:android": "npx cap open android",
+    "open:ios": "npx cap open ios",
+    "run:android": "npx cap run android",
+    "run:ios": "npx cap run ios"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@capacitor/android": "^8.5.3",
+    "@capacitor/app": "^8.1.2",
+    "@capacitor/cli": "^8.5.3",
+    "@capacitor/core": "^8.5.3",
+    "@capacitor/ios": "^8.5.3",
+    "@capacitor/status-bar": "^8.0.4"
+  }
+}

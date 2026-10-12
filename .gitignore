@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build and output artifacts
+dist/
+build/
+
+# Android build outputs
+android/.gradle
+android/build
+android/app/build
+android/.idea
+android/*.iml
+
+# iOS build outputs
+ios/DerivedData
+ios/*.xcworkspace
+ios/*.xcuserdata
+ios/Podfile.lock
+ios/Pods
+
+# Environment and IDE files
+.DS_Store
+*.local
+.vscode/
+.idea/
